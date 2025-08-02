@@ -48,7 +48,9 @@ function longestConsecutive(nums) {
 
   return longestStreak;
 }
-
+console.log(longestConsecutive([100, 4, 200, 1, 3, 2]));
+console.log(longestConsecutive([0, 3, 7, 2,
+    5, 8, 4, 6, 1]));
 // 3. Longest Substring Without Repeating Characters
 // Problem:
 // Given a string s, find the length of the longest substring without repeating characters.
